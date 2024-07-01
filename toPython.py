@@ -8,8 +8,8 @@ def rename_files(directory, suffix):
             os.rename(os.path.join(directory, filename), os.path.join(directory, new_name))
     print("Text files changed to Python files")
 
-# Example usage
-directory_path = os.getcwd()
+#uncomment either 
+#directory_path = os.getcwd()
 #directory_path = 'your_directory_path_here'
-suffix = '.py'
+suffix = '.py' 
 rename_files(directory_path, suffix)
